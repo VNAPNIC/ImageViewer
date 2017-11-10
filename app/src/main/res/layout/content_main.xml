@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.nankai.imageviewer.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/single_touchimageview_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/single_touchimageview" />
+
+        <Button
+            android:id="@+id/viewpager_example_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/viewpager_example" />
+
+        <Button
+            android:id="@+id/mirror_touchimageview_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mirror_touchimageview" />
+
+        <Button
+            android:id="@+id/switch_image_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/switch_image_example" />
+
+        <Button
+            android:id="@+id/switch_scaletype_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/switch_scaletype_example" />
+
+        <ImageView
+            android:src="@drawable/nature_1"
+            android:id="@+id/zoom_drag_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/zoom_drag_example" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
